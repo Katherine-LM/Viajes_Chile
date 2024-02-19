@@ -1,203 +1,240 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Viajes Chile</title>
-    
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/76fc4acf09.js" crossorigin="anonymous"></script>
 </head>
-  <body>
+
+<body>
 
 
-<header>
-    <nav class="navbar navbar-expand-sm bg-info sticky-top">
-        <div class="container">
-            <img src="assets/img/viajes.svg" width="35px" alt="">
-            <a class="navbar-brand text-light">Viajes Chile</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+    <header>
+        <nav class="navbar navbar-expand-sm sticky-top">
+            <div class="container">
+                <img src="assets/img/viajes.svg" width="35px" alt="">
+                <a class="navbar-brand text-light">Viajes Chile</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled text-light">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="carousel" class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="carousel-img d-block img-fluid" alt="llamas">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="carousel-img d-block img-fluid" alt="Moai">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="carousel-img d-block img-fluid" alt="Pinguino">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Quienes Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Destacados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled text-light">Contacto</a>
-                    </li>
-                </ul>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+        <section class="about-me p-5" id="about-me">
+            <div>
+                <h3 class="d-flex justify-content-center">¿QUIÉNES SOMOS?</h3>
+            </div>
+
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 p-3">
+                        <div class="card d-flex justify-content-center align-items-center border-0">
+                            <div class="card-body">
+                                <i class="fa-solid fa-plane" style="font-size:40px"></i>
+                                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                                    cum velit at inventore perspiciatis adipisci soluta distinctio nulla, voluptatibus
+                                    repudiandae quidem officiis fugit aliquid quam nisi recusandae maiores beatae
+                                    repellat necessitatibus deserunt. Quas corporis rerum adipisci assumenda dolore
+                                    expedita suscipit harum architecto perferendis, accusamus porro facere? Quae
+                                    quibusdam neque, laboriosam reiciendis excepturi optio quam qui nostrum placeat
+                                    officiis, modi sunt ea fugit rerum hic animi nemo blanditiis quis accusantium, est
+                                    similique iusto facilis minima porro. Cum, qui. Esse, fugiat delectus, ducimus unde
+                                    odit facere sed laborum omnis in ipsa dolore adipisci sequi? Quo, quaerat ut. Rem
+                                    facilis dicta recusandae fugit!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 p-3">
+                        <div class="card d-flex justify-content-center align-items-center border-0">
+                            <div class="card-body">
+                                <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Corporis, voluptates. Itaque libero omnis error ipsam quia praesentium voluptatibus
+                                    alias fugit animi eos, a repellendus voluptates ipsa voluptas doloribus possimus nam
+                                    quo nihil ducimus expedita quibusdam? Animi, nulla. Rerum, illum? Aliquid maxime
+                                    magni, veniam deserunt ab quisquam labore qui accusantium nobis sit eveniet nulla at
+                                    hic obcaecati esse odit fuga. Provident molestias delectus doloribus, aliquid,
+                                    soluta nihil dicta minus non, error consequatur optio temporibus hic? Corrupti
+                                    dolorem animi vero nihil perspiciatis eum asperiores qui nisi voluptate? Sit quae
+                                    facere, voluptas maxime magnam eligendi dolorem itaque unde ex ut. Id, dolor
+                                    repudiandae!</p>
+                                <i class="fa-solid fa-mountain" style="font-size:40px"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 p-3">
+                        <div class="card d-flex justify-content-center align-items-center border-0">
+
+                            <div class="card-body">
+                                <i class="fa-solid fa-route" style="font-size:40px"></i>
+                                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                                    blanditiis ab pariatur accusantium dolorem, harum, iste suscipit odio, atque libero
+                                    voluptatum unde eum expedita enim molestias mollitia repellendus aut tempore at cum.
+                                    Dolorum consequatur asperiores, hic quidem tempore rem. Dicta facere nihil at eos
+                                    pariatur voluptates est aut aperiam. Tenetur sit odio eligendi repellat veritatis
+                                    maxime perferendis sint, quaerat reprehenderit quidem mollitia assumenda deleniti
+                                    id, sequi aut ipsa provident ratione necessitatibus, a quae voluptates distinctio?
+                                    Eius repellat autem at perspiciatis? Illum, iure expedita, enim, quam dignissimos
+                                    ullam maxime nesciunt accusamus quaerat quia esse libero debitis necessitatibus quas
+                                    repellendus pariatur tempora.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <div class="container">
+            <div>
+                <h3 class="d-flex justify-content-center">DESTACADOS</h3>
+            </div>
+            <div class="row">
+
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="Imagen 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Título 1</h5>
+                            <p class="card-text">Contenido de la tarjeta 1.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="assets/img/card2.jpg" class="card-img-top" alt="Imagen 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Título 2</h5>
+                            <p class="card-text">Contenido de la tarjeta 2.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="Imagen 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Título 2</h5>
+                            <p class="card-text">Contenido de la tarjeta 2.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="Imagen 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Título 2</h5>
+                            <p class="card-text">Contenido de la tarjeta 2.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-</header>
+    </main>
 
-<main>
+
+
+
+    <div class="container-form mt-5 mb-5 text-center" id="contact">
+        <h1 class="d-flex justify-content-center">Contacto</h1>
+        <div class="row justify-content-center mx-0">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group p-3">
+                        <label class="form-label d-flex">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="form-group p-3">
+                        <label class="form-label d-flex">Correo electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
+                    </div>
+                    <div class="form-group p-3">
+                        <label class="form-label d-flex">Mensaje</label>
+                        <textarea class="form-control" id="message" rows="3"
+                            placeholder="Escribe aquí tu mensaje"></textarea>
+                    </div>
+                    <div class="d-flex p-2">
+                        <button id="btnEnviar" type="submit" class="btn btn-info text-black" data-toggle="tooltip" title="Enviar mensaje">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
     
-    <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/img/carousel1.jpg" class="d-block img-fluid" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/carousel2.jpg" class="d-block img-fluid" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/carousel3.jpg" class="d-block img-fluid" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-
-
-<section class="about-me p-5" id="about-me">
-  <div>
-      <h3 class="d-flex justify-content-center">¿QUIÉNES SOMOS?</h3>
-  </div>
-
-  <div class="container d-flex justify-content-center align-items-center">
-      <div class="row">
-          <div class="col-lg-4 col-md-6 p-3">
-              <div class="card d-flex justify-content-center align-items-center border-0">
-                  <div class="card-body">
-                    <i class="fa-solid fa-plane" style="font-size:40px"></i>
-                      <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa cum velit at inventore perspiciatis adipisci soluta distinctio nulla, voluptatibus repudiandae quidem officiis fugit aliquid quam nisi recusandae maiores beatae repellat necessitatibus deserunt. Quas corporis rerum adipisci assumenda dolore expedita suscipit harum architecto perferendis, accusamus porro facere? Quae quibusdam neque, laboriosam reiciendis excepturi optio quam qui nostrum placeat officiis, modi sunt ea fugit rerum hic animi nemo blanditiis quis accusantium, est similique iusto facilis minima porro. Cum, qui. Esse, fugiat delectus, ducimus unde odit facere sed laborum omnis in ipsa dolore adipisci sequi? Quo, quaerat ut. Rem facilis dicta recusandae fugit!</p>
-                  </div>
-              </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 p-3">
-              <div class="card d-flex justify-content-center align-items-center border-0">
-                    <div class="card-body">                          
-                      <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, voluptates. Itaque libero omnis error ipsam quia praesentium voluptatibus alias fugit animi eos, a repellendus voluptates ipsa voluptas doloribus possimus nam quo nihil ducimus expedita quibusdam? Animi, nulla. Rerum, illum? Aliquid maxime magni, veniam deserunt ab quisquam labore qui accusantium nobis sit eveniet nulla at hic obcaecati esse odit fuga. Provident molestias delectus doloribus, aliquid, soluta nihil dicta minus non, error consequatur optio temporibus hic? Corrupti dolorem animi vero nihil perspiciatis eum asperiores qui nisi voluptate? Sit quae facere, voluptas maxime magnam eligendi dolorem itaque unde ex ut. Id, dolor repudiandae!</p>
-                      <i class="fa-solid fa-mountain" style="font-size:40px"></i>
-                  </div>
-              </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 p-3">
-              <div class="card d-flex justify-content-center align-items-center border-0">
-        
-                  <div class="card-body">
-                    <i class="fa-solid fa-route" style="font-size:40px"></i>
-                      <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti blanditiis ab pariatur accusantium dolorem, harum, iste suscipit odio, atque libero voluptatum unde eum expedita enim molestias mollitia repellendus aut tempore at cum. Dolorum consequatur asperiores, hic quidem tempore rem. Dicta facere nihil at eos pariatur voluptates est aut aperiam. Tenetur sit odio eligendi repellat veritatis maxime perferendis sint, quaerat reprehenderit quidem mollitia assumenda deleniti id, sequi aut ipsa provident ratione necessitatibus, a quae voluptates distinctio? Eius repellat autem at perspiciatis? Illum, iure expedita, enim, quam dignissimos ullam maxime nesciunt accusamus quaerat quia esse libero debitis necessitatibus quas repellendus pariatur tempora.</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-
-</section>
-
-
-
-<div class="container">
-<div>
-  <h3 class="d-flex justify-content-center">DESTACADOS</h3>
-</div>
-<div class="row">
-
-    <div class="col-md-3 mb-4">
-        <div class="card">
-            <img src="assets/img/card1.jpg" class="card-img-top" alt="Imagen 1">
-            <div class="card-body">
-                <h5 class="card-title">Título 1</h5>
-                <p class="card-text">Contenido de la tarjeta 1.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-3 mb-4">
-        <div class="card">
-            <img src="assets/img/card2.jpg" class="card-img-top" alt="Imagen 2">
-            <div class="card-body">
-                <h5 class="card-title">Título 2</h5>
-                <p class="card-text">Contenido de la tarjeta 2.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-3 mb-4">
-      <div class="card">
-          <img src="assets/img/card3.jpg" class="card-img-top" alt="Imagen 2">
-          <div class="card-body">
-              <h5 class="card-title">Título 2</h5>
-              <p class="card-text">Contenido de la tarjeta 2.</p>
-          </div>
-      </div>
-  </div>
-
-  <div class="col-md-3 mb-4">
-    <div class="card">
-        <img src="assets/img/card4.jpg" class="card-img-top" alt="Imagen 2">
-        <div class="card-body">
-            <h5 class="card-title">Título 2</h5>
-            <p class="card-text">Contenido de la tarjeta 2.</p>
-        </div>
-    </div>
-</div>
-
-    
-
-</div>
-</div>
-</main>
-
-
-
-
-<div class="container-form mt-5 mb-5 text-center" id="contact">
-  <h1 class="d-flex justify-content-center">Contacto</h1>
-  <div class="row justify-content-center mx-0">
-      <div class="col-md-6">
-          <form>
-              <div class="form-group p-3">
-                  <label class="form-label d-flex">Nombre</label>
-                  <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-              </div>
-              <div class="form-group p-3">
-                  <label class="form-label d-flex">Correo electrónico</label>
-                  <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
-              </div>
-              <div class="form-group p-3">
-                  <label class="form-label d-flex">Mensaje</label>
-                  <textarea class="form-control" id="message" rows="3"
-                      placeholder="Escribe aquí tu mensaje"></textarea>
-              </div>
-              <div class="d-flex  p-2">
-                  <button type="submit" class="btn btn-info text-black">Enviar</button>
-              </div>
-          </form>
-      </div>
-  </div>
-</div>
 
 
 
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <script src="assets/js/index.js"></script>
 </body>
+
 </html>

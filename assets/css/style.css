@@ -1,9 +1,39 @@
 * {
     background-color: #000000;
     color: #eee;
-    
-}
-body {
-    color: #eee;
 }
 
+.carousel img {
+    height: 90vh;
+    width: 100%;
+    min-height: min-content;
+}
+.card-body-about {
+    text-align: justify;
+    padding: 10px;
+
+
+}
+.card-body-about i {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(161, 225, 142);
+    border-radius: 10px;
+    color: #000000;
+    padding: 8px;
+    text-align: justify;
+}
+
+.card-img {
+    width: 300px;
+    height: 200px;
+
+}
+
+.card_destacado {
+    border: 2px solid  rgb(109, 145, 98);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}

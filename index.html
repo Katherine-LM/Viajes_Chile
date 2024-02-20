@@ -1,9 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes Chile</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -11,13 +11,13 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/76fc4acf09.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
-
     <header>
-        <nav class="navbar navbar-expand-sm sticky-top">
+        <nav class="navbar navbar-expand-lg mx-auto sticky-top">
             <div class="container">
                 <img src="assets/img/viajes.svg" width="35px" alt="">
                 <a class="navbar-brand text-light">Viajes Chile</a>
@@ -71,18 +71,19 @@
 
 
 
-        <section class="about-me p-5" id="about-me">
+        <section class="about-me p-2" id="about-me">
             <div>
-                <h3 class="d-flex justify-content-center">¿QUIÉNES SOMOS?</h3>
+                <h3 class="d-flex justify-content-center p-5">¿QUIÉNES SOMOS?</h3>
             </div>
 
             <div class="container d-flex justify-content-center align-items-center">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 p-3">
-                        <div class="card d-flex justify-content-center align-items-center border-0">
-                            <div class="card-body">
+                        <div class="card-about d-flex justify-content-center align-items-center border-0">
+                            <div class="card-body-about">
                                 <i class="fa-solid fa-plane" style="font-size:40px"></i>
-                                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                                <br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
                                     cum velit at inventore perspiciatis adipisci soluta distinctio nulla, voluptatibus
                                     repudiandae quidem officiis fugit aliquid quam nisi recusandae maiores beatae
                                     repellat necessitatibus deserunt. Quas corporis rerum adipisci assumenda dolore
@@ -97,9 +98,9 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 p-3">
-                        <div class="card d-flex justify-content-center align-items-center border-0">
-                            <div class="card-body">
-                                <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        <div class="card-about d-flex justify-content-center align-items-center border-0">
+                            <div class="card-body-about">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                     Corporis, voluptates. Itaque libero omnis error ipsam quia praesentium voluptatibus
                                     alias fugit animi eos, a repellendus voluptates ipsa voluptas doloribus possimus nam
                                     quo nihil ducimus expedita quibusdam? Animi, nulla. Rerum, illum? Aliquid maxime
@@ -116,11 +117,11 @@
 
 
                     <div class="col-lg-4 col-md-6 p-3">
-                        <div class="card d-flex justify-content-center align-items-center border-0">
-
-                            <div class="card-body">
+                        <div class="card-about d-flex justify-content-center align-items-center border-0">
+                            <div class="card-body-about">
                                 <i class="fa-solid fa-route" style="font-size:40px"></i>
-                                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                                <br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
                                     blanditiis ab pariatur accusantium dolorem, harum, iste suscipit odio, atque libero
                                     voluptatum unde eum expedita enim molestias mollitia repellendus aut tempore at cum.
                                     Dolorum consequatur asperiores, hic quidem tempore rem. Dicta facere nihil at eos
@@ -140,83 +141,90 @@
 
 
 
-        <div class="container">
+        <section class="destacados">
             <div>
-                <h3 class="d-flex justify-content-center">DESTACADOS</h3>
+                <h3 class="d-flex justify-content-center p-2">DESTACADOS</h3>
             </div>
-            <div class="row">
+            <div class="row p-5">
 
                 <div class="col-md-3 mb-4">
-                    <div class="card">
-                        <img src="assets/img/card1.jpg" class="card-img-top" alt="Imagen 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Título 1</h5>
-                            <p class="card-text">Contenido de la tarjeta 1.</p>
+                    <div class="card_destacado">
+                        <img src="assets/img/card1.jpg" class="card-img" alt="Imagen 1">
+                        <div class="card-destacado-body">
+                            <h5>Lorem, ipsum dolor.</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-3 mb-4">
-                    <div class="card">
-                        <img src="assets/img/card2.jpg" class="card-img-top" alt="Imagen 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Título 2</h5>
-                            <p class="card-text">Contenido de la tarjeta 2.</p>
+                    <div class="card_destacado">
+                        <img src="assets/img/card2.jpg" class="card-img" alt="Imagen 2">
+                        <div class="card-destacado-body">
+                            <h5>Lorem, ipsum dolor.</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-3 mb-4">
-                    <div class="card">
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="Imagen 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Título 2</h5>
-                            <p class="card-text">Contenido de la tarjeta 2.</p>
+                    <div class="card_destacado">
+                        <img src="assets/img/card3.jpg" class="card-img" alt="Imagen 3">
+                        <div class="card-destacado-body">
+                            <h5>Lorem, ipsum dolor.</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-3 mb-4">
-                    <div class="card">
-                        <img src="assets/img/card4.jpg" class="card-img-top" alt="Imagen 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Título 2</h5>
-                            <p class="card-text">Contenido de la tarjeta 2.</p>
+                    <div class="card_destacado">
+                        <img src="assets/img/card4.jpg" class="card-img" alt="Imagen 4">
+                        <div class="card-destacado-body">
+                            <h5>Lorem, ipsum dolor.</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+
+
+        <section id="contacto">
+            <h1 class="d-flex justify-content-center">Contacto</h1>
+            <div class="row justify-content-center mx-0">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group p-3">
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                        </div>
+                        <div class="form-group p-3">
+                            <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
+                        </div>
+                        <div class="form-group p-3">
+                            <textarea class="form-control" id="message" rows="3"
+                                placeholder="Escribe aquí tu mensaje"></textarea>
+                        </div>
+                        <div class="d-flex p-2 justify-content-center">
+                            <button id="btnEnviar" type="submit" class="btn btn-success text-light"
+                                data-toggle="tooltip" title="Enviar mensaje">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
     </main>
 
 
 
 
-    <div class="container-form mt-5 mb-5 text-center" id="contact">
-        <h1 class="d-flex justify-content-center">Contacto</h1>
-        <div class="row justify-content-center mx-0">
-            <div class="col-md-6">
-                <form>
-                    <div class="form-group p-3">
-                        <label class="form-label d-flex">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-                    </div>
-                    <div class="form-group p-3">
-                        <label class="form-label d-flex">Correo electrónico</label>
-                        <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
-                    </div>
-                    <div class="form-group p-3">
-                        <label class="form-label d-flex">Mensaje</label>
-                        <textarea class="form-control" id="message" rows="3"
-                            placeholder="Escribe aquí tu mensaje"></textarea>
-                    </div>
-                    <div class="d-flex p-2">
-                        <button id="btnEnviar" type="submit" class="btn btn-info text-black" data-toggle="tooltip" title="Enviar mensaje">Enviar</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+
+
+    <footer>
+
+    </footer>
 
 
 
@@ -225,7 +233,6 @@
 
 
 
-    
 
 
 

@@ -8,6 +8,7 @@
 
 }
 
+/* se ajustan las medidas del carousel */
 .carousel img {
     height: 90vh;
     width: 100%;
@@ -15,13 +16,13 @@
 
 }
 
+/* se justifica el texto */
 .card-body-about {
     text-align: justify;
     padding: 10px;
-
-
 }
 
+/* se editan las propiedades de las card */
 .card-body-about i {
     display: flex;
     justify-content: center;
@@ -50,7 +51,7 @@
     padding-bottom: 35px;
 }
 
-
+/* se realiza las especificaciones del footer */
 .footer {
     display: flex;
     justify-content: space-between;

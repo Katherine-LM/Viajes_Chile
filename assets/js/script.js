@@ -13,7 +13,7 @@ $(document).ready(function () {
     $('form').tooltip({
         trigger: 'manual',
         title: 'Mensaje enviado',
-        placement: 'right'
+        placement: 'top'
     });
 
 
@@ -32,9 +32,6 @@ $(document).ready(function () {
             $('form').tooltip('hide'); // Oculta el tooltip
         }, 2000);
     });
-
-
-
 
 });
 

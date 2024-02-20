@@ -9,7 +9,7 @@
 }
 
 /* se ajustan las medidas del carousel */
-.carousel img {
+.carousel-img {
     height: 90vh;
     width: 100%;
     min-width: 100vh;

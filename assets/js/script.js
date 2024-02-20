@@ -16,6 +16,7 @@ $(document).ready(function () {
         placement: 'right'
     });
 
+
     // Agrega un evento al formulario para mostrar un mensaje al enviar
     $('form').submit(function (event) {
         event.preventDefault(); // Evita que el formulario se envíe realmente (es solo un ejemplo)
@@ -31,10 +32,6 @@ $(document).ready(function () {
             $('form').tooltip('hide'); // Oculta el tooltip
         }, 2000);
     });
-
-
-
-
 
 });
 
